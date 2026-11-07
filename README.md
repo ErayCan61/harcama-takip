@@ -1,16 +1,19 @@
-# React + Vite
+# Harcama Takip Uygulaması (Cüzdanım)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Bu proje, Web Geliştirme ve Yapay Zeka Proje Eğitimi kapsamında geliştirilmiş modern bir harcama takip (gelir/gider) uygulamasıdır. Kullanıcıların finansal durumlarını kolayca takip edebilmeleri amaçlanmıştır.
 
-Currently, two official plugins are available:
+## Kullanılan Teknolojiler
+- **Kütüphane:** React (Vite ile kurulum yapıldı)
+- **Tasarım:** Tailwind CSS
+- **Ekstra Özellik:** Recharts ile harcama grafiği
+- **Veri Saklama:** Tarayıcı LocalStorage (Veriler kalıcıdır, sayfa yenilense de silinmez)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Kurulum Adımları
+Projeyi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
+1. Depoyu klonlayın veya indirin.
+2. Terminali açarak proje dizinine gidin.
+3. `npm install` komutu ile gerekli paketleri yükleyin.
+4. `npm run dev` komutu ile projeyi yerel sunucuda başlatın.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Yapay Zeka Kullanımı
+Bu projenin geliştirme sürecinde yapay zeka asistanı (Gemini) kullanılmıştır. Uygulamanın fikir aşaması, React bileşenlerinin (component) üretilmesi, Tailwind CSS ile modern arayüzün tasarlanması, Recharts grafik entegrasyonu ve LocalStorage veri yönetimi aşamalarında yapay zekadan aktif olarak faydalanılmıştır.
